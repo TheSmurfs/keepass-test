@@ -17,4 +17,4 @@ with libkeepass.open('新数据库.kdbx', password='123456', unprotect=False) as
 
     with open('xml.xml', 'wb+') as f:
         f.write(str1)
-        #print(kdb.pretty_print(),f)
+        print(kdb.pretty_print(),f)
